@@ -43,6 +43,38 @@ body{
     background-color: #5D3FD3;
     border-radius: 20px;
     margin-top: 10px;
- 
-
+}
+.linksheader{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 5%;
+}
+.sliderlink{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 50px;
+    border-radius: 40px;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+}
+.sliderlink:hover{
+    background-color: #5D3FD3;
+    color: white;
+    transition: 0.2s;
+    font-weight: 800;
+}
+.socialmedia{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
