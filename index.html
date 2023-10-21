@@ -3,14 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
     <title>Automate Vellore | Your Go To Auto Rides</title>
     <link rel="shortcut icon" href="assets/MAINLOGO.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="header.css" />
   </head>
   <body>
+    <!-- Header -->
+    <div class="guide" id="guide">
+      <div class="imageguide">
+        <img
+          src="assets/headerimage.png"
+          alt="Guide Images"
+          class="guideimage"
+          id="guideimage"
+        />
+      </div>
+      <div class="guidetext" id="guidetext">
+        "Seamless Auto Bookings: <br />
+        Navigate Vellore with Ease"
+      </div>
+      <div class="nextbutton">
+        <button type="button" class="buttonguidepage" onclick="guide()">
+          Next →
+        </button>
+      </div>
+    </div>
     <header class="header">
-      <p class="compname">AutoMate</p>
+      <p class="compname">Automate</p>
       <div class="checkboxheader">
         <label class="burger" for="burger">
           <input type="checkbox" id="burger" onclick="check()" />
@@ -24,6 +48,8 @@
       <div class="topbanner"></div>
       <div class="linksheader"></div>
     </div>
+    <!-- Header -->
+
     <script src="script.js"></script>
   </body>
 </html>
